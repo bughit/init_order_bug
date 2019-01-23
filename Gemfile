@@ -28,6 +28,6 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'therubyracer', platforms: :ruby
-gem 'less-rails'
+gem 'less-rails', github: 'bughit/less-rails', branch: 'patch-1'
 gem 'geocoder'
 

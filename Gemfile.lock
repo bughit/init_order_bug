@@ -1,3 +1,13 @@
+GIT
+  remote: https://github.com/bughit/less-rails.git
+  revision: 1b15fb763bbcaec2bfcb11350a058b1e7f4bdf99
+  branch: patch-1
+  specs:
+    less-rails (4.0.0)
+      actionpack (>= 4)
+      less (~> 2.6.0)
+      sprockets (>= 2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -60,10 +70,6 @@ GEM
       multi_json (>= 1.2)
     less (2.6.0)
       commonjs (~> 0.2.7)
-    less-rails (4.0.0)
-      actionpack (>= 4)
-      less (~> 2.6.0)
-      sprockets (>= 2)
     libv8 (3.16.14.19)
     loofah (2.2.3)
       crass (~> 1.0.2)
@@ -140,7 +146,7 @@ DEPENDENCIES
   byebug
   geocoder
   jbuilder (~> 2.5)
-  less-rails
+  less-rails!
   rails (~> 5.2.2)
   therubyracer
   tzinfo-data
